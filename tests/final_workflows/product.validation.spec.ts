@@ -54,8 +54,7 @@ test.beforeEach(async ({ page }) => {
 // ─────────────────────────────────────────────
 // Test: View Product Details in New Tab
 // ─────────────────────────────────────────────
-test.describe('Products — product detail new tab @products', () => {
-test('registered user views product details in new tab @regression', async ({ page }) => {
+test('View product details in new tab', async ({ page }) => {
 
     // Step 1: Navigate to DemoShop page
     await test.step('Navigate to DemoShop', async () => {
@@ -108,5 +107,4 @@ test('registered user views product details in new tab @regression', async ({ pa
         // Close the product tab
         await productTab.close();
     });
-})
-})
+});
