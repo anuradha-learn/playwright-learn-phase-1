@@ -12,8 +12,7 @@ const testData = {
   search: {
     keyword: 'organic',
     maxPrice: '$25',
-    expectedResult: 'Organic Face Scrub'
-  },
+     },
 
   // product: {
   //   name:  'Pulses From Organic Farm',
